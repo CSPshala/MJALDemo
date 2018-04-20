@@ -24,8 +24,8 @@ If you plan on using MJAL via Blueprints that's all you need to do.
 If you're planning on also using C++ interface:
 
 1) In YourProject.build.cs add to respective arrays:
-   PublicDependencyModuleNames - "MJAssetLibrary"
-   PublicIncludePaths- "MJAssetLibrary/Classes"
+  - PublicDependencyModuleNames - "MJAssetLibrary"
+  - PublicIncludePaths- "MJAssetLibrary/Classes"
 
 2) Now include and use "MJAssetLibrary.h" where needed.
 
@@ -58,7 +58,7 @@ Platforms Tested: Windows, MacOS
 
 Demo Project: https://github.com/CSPshala/MJALDemo
 
-DemoVideo: https://youtu.be/ddBQFntaTL4
+Demo Video: https://youtu.be/ddBQFntaTL4
 
 -----------------------
 Contact and Support
