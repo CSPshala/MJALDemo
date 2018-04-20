@@ -1,6 +1,3 @@
-# MJALDemo
-Misfit Joe's Dynamic Asset Library Example Unreal 4 Project
-
 ----------------------------------------------  
 <h2 align="center">				
 			Misfit Joe's Dynamic Asset Library<br>
