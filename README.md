@@ -5,8 +5,7 @@
 			https://twitter.com/CSPshala  <br>
 </h2>
 
-<align="center">
- Designed to allow organization of any loaded assets and enable a range of much friendlier asset pipelines on the cheap for smaller games.</align="center">
+ Designed to allow organization of any loaded assets and enable a range of much friendlier asset pipelines on the cheap for smaller games.
 
 -----------------------  
 System Requirements
@@ -65,7 +64,7 @@ Contact and Support
 -----------------------  
 
 Yell at me on Twitter: https://twitter.com/CSPshala
-
+Or at my email if you're old: joe.ricks.csp@gmail.com
 
 -----------------------
  Version History
