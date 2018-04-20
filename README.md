@@ -4,9 +4,9 @@
 					4.19.0   <br>
 			https://twitter.com/CSPshala  <br>
 </h2>
-----------------------------------------------  
 
- Designed to allow organization of any loaded assets and enable a range of much friendlier asset pipelines on the cheap for smaller games.
+<align="center">
+ Designed to allow organization of any loaded assets and enable a range of much friendlier asset pipelines on the cheap for smaller games.</align="center">
 
 -----------------------  
 System Requirements
@@ -24,8 +24,8 @@ If you plan on using MJAL via Blueprints that's all you need to do.
 If you're planning on also using C++ interface:
 
 1) In YourProject.build.cs add to respective arrays:
-  - PublicDependencyModuleNames - "MJAssetLibrary"
-  - PublicIncludePaths- "MJAssetLibrary/Classes"
+  	- PublicDependencyModuleNames - "MJAssetLibrary"
+  	- PublicIncludePaths- "MJAssetLibrary/Classes"
 
 2) Now include and use "MJAssetLibrary.h" where needed.
 
@@ -39,7 +39,7 @@ Blueprints:
 2. Access instance of library, call load functions on resource path
 3. Recieve actors/classes
 
-C++
+C++:
 1. Make sure to include in build.cs
 2. Create UMJAssetLibrary somewhere and store.
 3. Use functions in UMJAssetLibrary to load and spawn what you need.
