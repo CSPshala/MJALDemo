@@ -74,8 +74,10 @@ Supported UE4 Versions:
 *4.19.0
 
 Plugin Versions:
+
 *1.0
 - Core features
 - Load any Blueprint and use it at runtime via C++ or BP.
+
 *1.1
 - Load any UAsset and use it at runtime via C++ or BP.
