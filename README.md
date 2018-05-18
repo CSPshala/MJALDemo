@@ -1,7 +1,7 @@
 ----------------------------------------------  
 <h2 align="center">				
 			Misfit Joe's Dynamic Asset Library<br>
-					4.19.0   <br>
+					Ver. 1.1   <br>
 			https://twitter.com/CSPshala  <br>
 </h2>
 
@@ -10,7 +10,7 @@
 -----------------------  
 System Requirements
 -----------------------  
-Tested on 4.19
+Tested on and built for UE4 4.19
 
 -----------------------
 Installation Guide
