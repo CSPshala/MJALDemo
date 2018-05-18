@@ -70,6 +70,12 @@ Or at my email if you're old: joe.ricks.csp@gmail.com
  Version History
 -----------------------  
 
+Supported UE4 Versions:
 *4.19.0
-- First version
+
+Plugin Versions:
+*1.0
 - Core features
+- Load any Blueprint and use it at runtime via C++ or BP.
+*1.1
+- Load any UAsset and use it at runtime via C++ or BP.
