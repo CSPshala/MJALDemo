@@ -10,9 +10,10 @@
 -----------------------  
 System Requirements
 -----------------------  
-Tested on and built for UE4 4.20/4.19
+@Head is tested on and built for UE4 4.20
 
 If you need an older version of this project, clone the appropriate version engine tag.
+
 EG: UE 4.19 is at tag "4.19"
 
 -----------------------
