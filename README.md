@@ -10,7 +10,10 @@
 -----------------------  
 System Requirements
 -----------------------  
-Tested on and built for UE4 4.19
+Tested on and built for UE4 4.20/4.19
+
+If you need an older version of this project, clone the appropriate version engine tag.
+EG: UE 4.19 is at tag "4.19"
 
 -----------------------
 Installation Guide
@@ -71,7 +74,8 @@ Or at my email if you're old: joe.ricks.csp@gmail.com
 -----------------------  
 
 Supported UE4 Versions:
-*4.19.0
+*4.20
+*4.19
 
 Plugin Versions:
 
