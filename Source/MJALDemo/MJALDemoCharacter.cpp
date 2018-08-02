@@ -17,19 +17,22 @@
 // Declaring a static instance of an asset library in the C++ code
 //
 // :USERTODO:
-// 1) In MJALDemo.Build.cs find and complete :USERTODO:
-// 2) You should remove any MJAssetLibrary objects constructed in blueprints
-//    undefined behavior may occur if you do not. 
-//    If you'd like to use in BPs, expose in a safe way somewhere.
-// 3) Uncomment The Lines Below
+// 1) In MJALDemo.Build.cs make note of header include in the build
+// 2) Below is a ~2nd library~ created in this project, Blueprints is using its own created in BPs.
+// 3) ClearAll() is called on this library just to see that its linked correctly but this is the gist of
+//    C++ inclusion and usage. All interfaces exposed in BPs are also usable in code.
 
-//#include "AssetLibrary.h"
-//UMJAssetLibrary* AMJALDemoCharacter::smAssetLibrary(NewObject<UMJAssetLibrary>());
+#include "MJAssetLibrary.h"
+UMJAssetLibrary* AMJALDemoCharacter::smAssetLibrary(NewObject<UMJAssetLibrary>());
 
 AMJALDemoCharacter::AMJALDemoCharacter()
 {
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
+
+	// Calling ClearAll (needlessly as nothing is in it) on our 2nd AssetLibrary to demonstrate C++ 
+	// inclusion and usage. Also creates a call on the object to test linkage.
+	smAssetLibrary->ClearAll();
 
 	// set our turn rates for input
 	BaseTurnRate = 45.f;

@@ -1,6 +1,7 @@
 // Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
+using System.IO;
 
 public class MJALDemo : ModuleRules
 {
@@ -14,10 +15,11 @@ public class MJALDemo : ModuleRules
         // This is not needed if just using the blueprintable version of the AssetLibrary, C++ cool kids only
         //
         // :USERTODO:
-        // 1) Uncomment comments in code and any commented lines below
-        // 2) Open MJALDemoCharacter.cpp and find :USERTODO:
+        // 1) Nothing to do here, the installed marketplace plugin is included in the build below
+        // 2) Open MJALDemoCharacter.cpp and find :USERTODO: to see a static library
 
-        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay"/*, "MJAssetLibrary"*/});
-        //PublicIncludePaths.AddRange(new string[] { "MJAssetLibrary/Classes" });
+        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "MJAssetLibrary"});
+        PublicIncludePaths.AddRange(new string[] { });
+        PublicIncludePaths.Add(Path.GetFullPath(Path.Combine(EngineDirectory, "Plugins/Marketplace/MJAssetLibrary/Source/MJAssetLibrary/Public")));
     }
 }
