@@ -1,7 +1,7 @@
 ----------------------------------------------  
 <h2 align="center">				
 			Misfit Joe's Dynamic Asset Library<br>
-					Ver. 1.1   <br>
+					Ver. 1.2   <br>
 			https://twitter.com/CSPshala  <br>
 </h2>
 
@@ -10,7 +10,7 @@
 -----------------------  
 System Requirements
 -----------------------  
-@Head is tested on and built for UE4 4.20
+@Head is tested on and built for UE4 4.27
 
 If you need an older version of this project, clone the appropriate version engine tag.
 
@@ -67,7 +67,7 @@ Demo Video: https://youtu.be/ddBQFntaTL4
 Contact and Support
 -----------------------  
 
-Yell at me on Twitter: https://twitter.com/CSPshala
+DM me on Twitter: https://twitter.com/CSPshala
 Or at my email if you're old: joe.ricks.csp@gmail.com
 
 -----------------------
@@ -75,6 +75,7 @@ Or at my email if you're old: joe.ricks.csp@gmail.com
 -----------------------  
 
 Supported UE4 Versions:
+*4.27
 *4.20
 *4.19
 
@@ -86,3 +87,6 @@ Plugin Versions:
 
 *1.1
 - Load any UAsset and use it at runtime via C++ or BP.
+
+*1.2
+- Engine version update
